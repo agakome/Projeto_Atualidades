@@ -45,8 +45,7 @@ body{
     flex-direction:column;
     justify-content: right;
     align-items: center;
-    font-size: 18px;
-    border: 1px solid; 
+    font-size: 18px; 
     gap: 10px;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -61,3 +60,4 @@ body{
     background-color: brown;
     color: white;
 }
+

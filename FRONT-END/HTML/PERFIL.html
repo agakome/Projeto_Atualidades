@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Configurações</title>
+    <link rel="stylesheet" href="../CSS/Perfil.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="perfil">    
+                <img id="perfilFoto" src="https://i.pinimg.com/736x/f1/ba/f3/f1baf33f2684d5e55d2e413c8d6723a4.jpg" alt="Foto de Perfil">
+                <h3 id="perfilNome">Muryllo Teixeira</h3>
+                <p>Admin</p>
+            </div>
+        </aside>
+
+        <!-- Área Principal -->
+        <main class="Info">
+            <div id="areaInfo">
+                <h2>Editar o Perfil</h2>
+                <input id="nome" type="text" placeholder="Altere seu nome">
+                <input id="email" type="email" placeholder="Altere seu e-mail">
+                <button id="button">Salvar</button>
+            
+                <h2>Nível de Dificuldade</h2>
+                <input class="nivel" type="checkbox">
+                <label for="">Dificíl</label>
+                <input class="nivel"  type="checkbox">
+                <label for="">Médio</label>
+                <input class="nivel"  type="checkbox">
+                <label for="">Fácil</label>
+
+                <h2>Trocar Foto</h2>
+                <img src="https://cdn-icons-png.flaticon.com/512/16190/16190871.png" alt="foto"
+                width="50" height="50">
+            </div>
+
+        </main>
+    </div>
+
+    <script src="perfil.js"></script>
+</body>
+</html>

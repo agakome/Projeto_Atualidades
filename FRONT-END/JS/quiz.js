@@ -9,6 +9,11 @@ const quizData = [
       options: ["Jupiter", "Saturno", "Marte", "Terra"],
       answer: "Jupiter"
     },
+    {
+      question: "O Sol é o que?",
+      options:["Estrela", "Planeta", "Bola de lava", "Nenhuma das alternativas"],
+      answer: "Estrela"
+    }
     // Adicione mais perguntas aqui...
   ];
   
